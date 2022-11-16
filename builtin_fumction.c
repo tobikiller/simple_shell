@@ -122,6 +122,18 @@ void display_help(char **command __attribute__((unused)),
 {
 	static char *texts[] = {
 		"\n\t***Welcome to Our Simple Shell***\n",
+		"Copyright: @Sanctus-Peter @mamt4real\n",
+		"\nList of Supported Commands:\n",
+		"\tcd\n",
+		"\trmdir\n",
+		"\tmkdir\n",
+		"\tsetenv\n",
+		"\tunsetenv\n",
+		"\thelp\n",
+		"\tclear\n",
+		"\texit\n",
+		"\nAll Other Shell Built in Commands are supported\n",
+		"\nHave Fun!!\n",
 		NULL
 		};
 	int i = 0;
