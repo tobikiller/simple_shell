@@ -22,8 +22,8 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 	_strcat(error, msg);
 	if (datash->args[1][0] == '-')
 	{
-		illegal_flag = mallo(3);
-		illegal_flag[0] = '-'
+		illegal_flag = malloc(3);
+		illegal_flag[0] = '-';
 		illegal_flag[1] = datash->args[1][1];
 		illegal_flag[2] = '\0';
 		_strcat(error, illegal_flag);
